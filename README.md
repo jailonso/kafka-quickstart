@@ -19,12 +19,13 @@ tar -xvf My-kafka-test.tgz
 ```
 
 # Start cluster
-docker-compose up
+
+`docker-compose up`
 
 # Create message
 ## Connect to kafka producer
-`docker exec -it kafkaproducer /bin/bash``
-`/tmp/send_1000_messages``
+`docker exec -it kafkaproducer /bin/bash`
+`/tmp/send_1000_messages`
  
 
 
