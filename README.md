@@ -17,6 +17,8 @@ tar -xvf My-kafka-test.tgz
      - DD_PROCESS_AGENT_ENABLED=true
      - DD_API_KEY=xxx
 ```
+And update the mount volume path with the kafka integration:
+     - "/Users/xxx/My-kafka-test/datadog/conf.d:/etc/datadog-agent/conf.d:rw"
 
 # Start cluster
 
